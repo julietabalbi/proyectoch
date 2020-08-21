@@ -32,7 +32,7 @@ a p:link {
 
 p {
   /* Parrafos sueltos */
-  font-size: 14px;
+  font-size: 16px;
   color: black;
   margin-left: 30px;
   margin-right: 30px;
@@ -459,13 +459,14 @@ strong {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: info;
+  height: auto;
 }
 
 .contact__form {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: form;
-  width: 95%;
+  width: 100%;
   float: left;
   margin-top: 40px;
   padding-left: 2.5%;
@@ -730,11 +731,12 @@ textarea:focus {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: imagen;
+  margin-top: 50px;
 }
 
 .files__description {
   width: 600px;
-  top: 120px;
+  top: 30px;
   display: inline-block;
   position: absolute;
   -ms-grid-row: 1;
@@ -790,6 +792,10 @@ textarea:focus {
 
 .instructions__cards img {
   height: 70px;
+}
+
+.instructions__cards p {
+  margin: 0;
 }
 
 /*----------------------Impresión------------*/

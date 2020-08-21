@@ -35,7 +35,7 @@ a{
 
 
 p{ /* Parrafos sueltos */
-    font-size: 14px ;
+    font-size: 16px ;
     color:black;
     margin-left: 30px;
     margin-right: 30px;
@@ -432,12 +432,13 @@ strong{
     }
 
     &__info{
-        grid-area: info;  
+        grid-area: info; 
+        height: auto; 
     }
 
     &__form{
         grid-area: form;
-        width: 95%;
+        width: 100%;
         float: left;
         margin-top: 40px;
         padding-left: 2.5%;
@@ -687,11 +688,12 @@ textarea{
         position: absolute;
         justify-self: center;
         grid-area: imagen;
+        margin-top: 50px;
     }
 
     &__description{
         width: 600px;
-        top: 120px;
+        top: 30px;
         display: inline-block;
         position: absolute;
         grid-area: instruction;
@@ -747,6 +749,10 @@ textarea{
 
         img{
             height: 70px;
+        }
+
+        p{
+            margin: 0;
         }
     }
 }
