@@ -356,6 +356,9 @@ strong {
   .team__description p {
     width: auto;
   }
+  .team__block img {
+    width: 350px;
+  }
 }
 
 /*-------------------------------------QUE HACEMOS-----------------------------*/
