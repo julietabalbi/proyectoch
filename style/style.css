@@ -807,6 +807,7 @@ textarea:focus {
 
 .instructions__cards img {
   height: 70px;
+  margin-bottom: 20px;
 }
 
 .instructions__cards p {
