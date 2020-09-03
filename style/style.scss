@@ -709,6 +709,15 @@ textarea{
         display: inline-block;
         position: absolute;
         grid-area: instruction;
+
+        ul{
+            list-style-position: inside;
+            margin-left: 50px;
+
+            li{
+                margin-bottom: 20px;
+            }
+        }
     }
 }
 

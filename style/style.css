@@ -753,6 +753,15 @@ textarea:focus {
   grid-area: instruction;
 }
 
+.files__description ul {
+  list-style-position: inside;
+  margin-left: 50px;
+}
+
+.files__description ul li {
+  margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 768px) {
   .vinilos__descripcion {
     padding-top: 0;
