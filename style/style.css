@@ -755,7 +755,8 @@ textarea:focus {
 
 .files__description ul {
   list-style-position: inside;
-  margin-left: 50px;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 
 .files__description ul li {
@@ -784,7 +785,7 @@ textarea:focus {
         grid-template-rows: 1fr 1fr;
     gap: 20px;
         grid-template-areas: "instruction" "imagen";
-    height: 900px;
+    height: 1000px;
   }
   .files__description {
     width: auto;

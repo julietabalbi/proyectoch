@@ -712,7 +712,8 @@ textarea{
 
         ul{
             list-style-position: inside;
-            margin-left: 50px;
+            margin-left: 35px;
+            margin-right: 35px;
 
             li{
                 margin-bottom: 20px;
@@ -748,7 +749,7 @@ textarea{
         gap: 20px;
         grid-template-areas:    "instruction"
                                 "imagen";
-        height: 900px;
+        height: 1000px;
 
         &__description{
             width: auto;
